@@ -1,0 +1,8 @@
+auth0:
+  audience: https://banking
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://iliapetrovs.eu.auth0.com/
